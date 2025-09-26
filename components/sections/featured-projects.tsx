@@ -20,6 +20,7 @@ const projects: ProjectData[] = [
         borderColor: "border-red-400/20",
         image: "https://images.unsplash.com/photo-1592609931095-54a2168ae893?w=600&h=400&fit=crop&auto=format&q=80",
         liveHref: "", // No public links available (disabled)
+        githubHref: "https://github.com/your-repo/rust-remote-agent",
     },
     {
         id: "ad-pentesting-lab",
@@ -33,6 +34,7 @@ const projects: ProjectData[] = [
         borderColor: "border-rose-400/20",
         image: "https://images.unsplash.com/photo-1585079542156-2755d9c8a094?w=600&h=400&fit=crop&auto=format&q=80",
         liveHref: "", // No public links available (disabled)
+        githubHref: "https://github.com/your-repo/ad-pentesting-lab",
     },
     {
         id: "siem-cti-integration",
@@ -46,6 +48,7 @@ const projects: ProjectData[] = [
         borderColor: "border-red-400/20",
         image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop&auto=format&q=80",
         liveHref: "", // No public links available (disabled)
+        githubHref: "https://github.com/your-repo/siem-cti-integration",
     },
 ];
 
