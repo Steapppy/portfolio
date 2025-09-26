@@ -131,11 +131,11 @@ export function CTABand() {
           >
             <p className="text-sm text-white">
               Have a quick question?{" "}
-              <Link href="mailto:contact@redaelhadfi.com" className="text-red-300 underline hover:text-red-400 transition-colors">
+              <Link href="alouache.abdelmoula@ine.inpt.ac.ma" className="text-red-300 underline hover:text-red-400 transition-colors">
                 Email me directly
               </Link>{" "}
               or connect on{" "}
-              <Link href="https://linkedin.com/in/redaelhadfi" className="text-red-300 underline hover:text-red-400 transition-colors">
+              <Link href="https://www.linkedin.com/in/abdelmoula-alouache/" className="text-red-300 underline hover:text-red-400 transition-colors">
                 LinkedIn
               </Link>.
             </p>
