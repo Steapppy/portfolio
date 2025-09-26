@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import sharp from 'sharp';
-import { readdir, stat } from 'fs/promises';
+import { readdir, stat, mkdir } from 'fs/promises';
 import { join } from 'path';
 import { existsSync } from 'fs';
 
@@ -47,10 +47,10 @@ async function optimizeImage(imagePath, outputPath, format = 'webp') {
 
 async function main() {
   if (!existsSync(GALLERY_DIR)) {
-    console.error(`Gallery directory ${GALLERY_DIR} does not exist`);
-    process.exit(1);
+    console.warn(`Gallery directory ${GALLERY_DIR} does not exist. Creating it now...`);
+    await mkdir(GALLERY_DIR, { recursive: true });
   }
-  
+
   try {
     const files = await readdir(GALLERY_DIR);
     const imageFiles = files.filter(file => 
