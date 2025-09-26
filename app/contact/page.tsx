@@ -118,7 +118,7 @@ export default function ContactPage() {
             </div>
             <h1 className="text-2xl font-bold mb-4">Message Sent Successfully!</h1>
             <p className="text-muted-foreground mb-8">
-              Thank you for reaching out. I'll get back to you as soon as possible.
+              Thank you for reaching out. I&apos;ll get back to you as soon as possible.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button onClick={() => setIsSubmitted(false)}>Send Another Message</Button>
@@ -139,7 +139,7 @@ export default function ContactPage() {
             <div className="max-w-4xl mx-auto text-center">
               <Badge variant="outline" className="mb-4 text-primary border-primary/30">Cybersecurity Engineering Student</Badge>
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-                Let's Secure the Future, Together.
+                Let&apos;s Secure the Future, Together.
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
                 I am a final-year student actively seeking a challenging <strong>PFE internship</strong> to apply my practical offensive security skills in a professional setting.

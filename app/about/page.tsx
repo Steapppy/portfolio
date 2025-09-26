@@ -26,7 +26,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'About | Alouache Abdelmoula - Cybersecurity Engineer',
-  description: 'Learn about Alouache Abdelmoula\'s journey as a Cybersecurity Engineering student, his passion for offensive security, and the skills that drive his work.',
+  description: 'Learn about Alouache Abdelmoula&apos;s journey as a Cybersecurity Engineering student, his passion for offensive security, and the skills that drive his work.',
 }
 
 const skills = [
@@ -121,7 +121,7 @@ export default function AboutPage() {
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild size="lg">
-                      <Link href="/contact">Let's Connect</Link>
+                      <Link href="/contact">Let&apos;s Connect</Link>
                     </Button>
                     <Button variant="outline" size="lg" asChild>
                       <Link href="/resume.pdf" target="_blank">
@@ -278,7 +278,7 @@ export default function AboutPage() {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Beyond the Code</h2>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                When I'm not immersed in security research, I enjoy exploring new technologies, contributing to the security community, and staying current with the evolving threat landscape.
+                When I&apos;m not immersed in security research, I enjoy exploring new technologies, contributing to the security community, and staying current with the evolving threat landscape.
               </p>
               <div className="flex justify-center gap-8 text-sm text-muted-foreground">
                 <div className="flex items-center">

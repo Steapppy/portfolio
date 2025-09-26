@@ -311,7 +311,7 @@ export default function ExperiencePage() {
                 Ready to Bolster Your Security Team?
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                With a strong foundation in offensive security and proven hands-on experience, I am ready to contribute to your team's success and help secure your digital assets.
+                With a strong foundation in offensive security and proven hands-on experience, I am ready to contribute to your team&apos;s success and help secure your digital assets.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg">
