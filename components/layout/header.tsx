@@ -131,7 +131,7 @@ export function Header() {
               className="bg-gradient-to-r from-red-500 to-rose-500 hover:from-red-400 hover:to-rose-400 text-white border-0 shadow-lg hover:shadow-red-500/25 transition-all duration-300"
               asChild
             >
-              <Link href="/resume.pdf" target="_blank">
+              <Link href="/resume" target="_blank">
                 Resume
                 <ArrowRight className="ml-2 h-3 w-3" />
               </Link>
@@ -205,7 +205,7 @@ export function Header() {
                     className="w-full bg-gradient-to-r from-red-500 to-rose-500 hover:from-red-400 hover:to-rose-400 text-white border-0"
                     asChild
                   >
-                    <Link href="/resume.pdf" target="_blank">
+                    <Link href="/resume" target="_blank">
                       View Resume
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
