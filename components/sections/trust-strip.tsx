@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 // Trust elements updated for a cybersecurity profile
 const trustElements = [
     {
-        name: "Certified Red Team Analyst",
+        name: "Practical Netwrok Penetration Tester and Certified Red Team Analyst",
         icon: ShieldCheck,
         description:
-            "Holder of the CRTA and in-progress PNPT certifications, demonstrating practical skills in offensive security.",
+            "Holder of the PNPT and CRTA certifications, demonstrating practical skills in offensive security.",
         color: "text-red-400",
         bgColor: "bg-red-400/10",
         borderColor: "border-red-400/20",

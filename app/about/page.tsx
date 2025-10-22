@@ -40,29 +40,18 @@ const skills = [
 
 const achievements = [
   {
+    title: 'Practical Network Penetration Tester (PNPT)',
+    description: 'Earned the PNPT certification from TCM Security, demonstrating my ability to perform penetration tests on professional environments.',
+    icon: ShieldCheck,
+    year: '2025',
+  },
+  {
     title: 'Certified Red Team Analyst (CRTA)',
     description: 'Earned the CRTA certification from Cyber Warfare Labs, validating practical red teaming skills.',
     icon: ShieldCheck,
     year: '2025',
   },
-  {
-    title: 'Red Team Engineer Intern',
-    description: 'Conducted penetration tests on enterprise networks with a focus on Active Directory security at EncryptEdge Labs.',
-    icon: Target,
-    year: '2025',
-  },
-  {
-    title: 'SIEM Enhancement Project',
-    description: 'Engineered custom detection rules and integrated CTI feeds for the Wazuh SIEM to identify advanced threats.',
-    icon: BrainCircuit,
-    year: 'Present',
-  },
-  {
-    title: 'Rust-Based Tooling Research',
-    description: 'Built a custom remote agent in Rust, focusing on memory-safe and secure native tooling.',
-    icon: Code2,
-    year: 'Present',
-  },
+ 
 ]
 
 const values = [
@@ -124,7 +113,7 @@ export default function AboutPage() {
                       <Link href="/contact">Let&apos;s Connect</Link>
                     </Button>
                     <Button variant="outline" size="lg" asChild>
-                      <Link href="/resume.pdf" target="_blank">
+                      <Link href="/resume" target="_blank">
                         <ExternalLink className="w-4 h-4 mr-2" />
                         View Resume
                       </Link>

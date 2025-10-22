@@ -84,7 +84,7 @@ export function HeroSection() {
                                 animate={hasMounted ? { opacity: 1, y: 0 } : undefined}
                                 transition={hasMounted ? { duration: 0.6, delay: 0.2, ease: "easeOut" } : undefined}
                             >
-                                Final-year Cybersecurity Engineering student with a strong focus on practical offensive security, including Active Directory penetration testing and SIEM-CTI integration.
+                                Final-year Cybersecurity Engineering student with a strong focus on practical offensive security, including Active Directory penetration testing, Web application penetration testing, SIEM-CTI integration and report writing.
                             </MotionP>
                         </div>
 

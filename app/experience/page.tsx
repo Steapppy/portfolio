@@ -27,22 +27,7 @@ export const metadata: Metadata = {
 }
 
 const workExperience = [
-  {
-    title: 'Red Team Engineer Intern',
-    company: 'EncryptEdge Labs',
-    location: 'Remote',
-    period: 'Dec 2024 - Feb 2025',
-    type: 'Internship',
-    description: 'Conducted simulated attacks on enterprise networks to identify and report security vulnerabilities, with a primary focus on Active Directory environments.',
-    achievements: [
-      'Executed penetration tests focusing on Active Directory security.',
-      'Utilized Command & Control (C2) frameworks like Sliver for post-exploitation and persistence.',
-      'Authored comprehensive penetration test reports detailing findings, risk assessments, and remediation strategies.',
-      'Gained practical experience in adversary simulation and offensive security tactics.',
-    ],
-    technologies: ['Active Directory', 'Sliver C2', 'Penetration Testing', 'Post-Exploitation', 'Reporting'],
-  },
-  {
+    {
     title: 'Cybersecurity & Infrastructure Engineer Intern',
     company: 'MCPharma',
     location: 'Bouskoura, Morocco',
@@ -57,6 +42,22 @@ const workExperience = [
     ],
     technologies: ['Zabbix', 'Active Directory', 'Infrastructure Security', 'Internal Penetration Testing'],
   },
+  {
+    title: 'Red Team Engineer Intern',
+    company: 'EncryptEdge Labs',
+    location: 'Remote',
+    period: 'Dec 2024 - Feb 2025',
+    type: 'Internship',
+    description: 'Conducted simulated attacks on enterprise networks to identify and report security vulnerabilities, with a primary focus on Active Directory environments.',
+    achievements: [
+      'Executed penetration tests focusing on Active Directory security.',
+      'Utilized Command & Control (C2) frameworks like Sliver for post-exploitation and persistence.',
+      'Authored comprehensive penetration test reports detailing findings, risk assessments, and remediation strategies.',
+      'Gained practical experience in adversary simulation and offensive security tactics.',
+    ],
+    technologies: ['Active Directory', 'Web Application Security', 'Penetration Testing', 'Post-Exploitation', 'Reporting'],
+  },
+
 ]
 
 const education = [
@@ -72,7 +73,7 @@ const education = [
       'Engaged in projects involving secure coding, network analysis, and vulnerability assessment.',
       'Actively seeking a PFE internship in offensive security.',
     ],
-    coursework: ['Network Security', 'Cryptography', 'Ethical Hacking', 'Secure Coding', 'Digital Forensics', 'Risk Management'],
+    coursework: ['Network Security', 'Web application Security', 'Ethical Hacking', 'Secure Coding', 'Digital Forensics', 'Risk Management'],
   },
   {
     degree: 'Preparatory Classes for Engineering Schools (CPGE)',
@@ -99,7 +100,7 @@ const certifications = [
   {
     title: 'Practical Network Penetration Tester (PNPT)',
     issuer: 'TCM Security',
-    date: 'In Progress',
+    date: '2025',
     description: 'A practical certification that assesses the ability to perform a professional-level network penetration test from start to finish.',
   },
 ]
@@ -109,11 +110,11 @@ const skills = {
     "Penetration Testing": ['Internal Network Attacks', 'Privilege Escalation', 'Lateral Movement'],
     "Active Directory Security": ['BloodHound', 'Mimikatz', 'Impacket', 'Kerberoasting', 'NTLM Relay'],
     "Network Security": ['Wireshark', 'TCP/IP', 'VLAN Attacks', 'Network Sniffing'],
-    "Web Application Security": ['Burp Suite', 'OWASP Top 10', 'SQL Injection', 'XSS'],
+    "Web Application Security": ['Burp Suite', 'OWASP Top 10', 'Curl', ],
     "Programming Languages": ['Python', 'Rust', 'Java'],
   },
   soft: [
-    'Critical Thinking', 'Problem-Solving', 'Communication', 'Creativity', 'Adaptability', 'Report Writing'
+    'Critical Thinking', 'Problem-Solving', 'Communication', 'Creativity', 'Adaptability', 
   ],
 }
 

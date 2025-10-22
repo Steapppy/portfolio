@@ -31,20 +31,10 @@ const personalInfo = {
   linkedin: 'linkedin.com/in/abdelmoula-alouache',
 }
 
-const professionalSummary = `Final-year Cybersecurity Engineering student at INPT with a strong focus on practical offensive security, including Active Directory penetration testing, SIEM-CTI integration, and comprehensive vulnerability reporting.`
+const professionalSummary = `Final-year Cybersecurity Engineering student at INPT with a strong focus on practical offensive security, including Active Directory security, Web application Security, and comprehensive vulnerability reporting.`
 
 const experience = [
-  {
-    title: 'Red Team Engineer Intern',
-    company: 'EncryptEdge Labs',
-    location: 'Remote',
-    period: 'Dec 2024 - Feb 2025',
-    achievements: [
-      'Conducted penetration tests on enterprise networks, focusing on Active Directory security.',
-      'Utilized C2 frameworks such as Sliver for post-exploitation and persistence.',
-      'Authored detailed penetration test reports, including technical findings, risk assessments, and remediation recommendations.',
-    ],
-  },
+
   {
     title: 'Cybersecurity & Infrastructure Engineer Intern',
     company: 'MCPharma',
@@ -54,6 +44,17 @@ const experience = [
       'Monitored the performance and security posture of critical IT infrastructure using Zabbix.',
       'Assisted in the migration to and deployment of a new Active Directory environment.',
       'Conducted an internal penetration test on the newly deployed Active Directory.',
+    ],
+  },
+    {
+    title: 'Red Team Engineer Intern',
+    company: 'EncryptEdge Labs',
+    location: 'Remote',
+    period: 'Dec 2024 - Feb 2025',
+    achievements: [
+      'Conducted penetration tests on enterprise networks, focusing on Active Directory security.',
+      'Utilized C2 frameworks such as Sliver for post-exploitation and persistence.',
+      'Authored detailed penetration test reports, including technical findings, risk assessments, and remediation recommendations.',
     ],
   },
 ]
@@ -68,7 +69,7 @@ const education = [
   },
   {
     degree: 'Preparatory Classes for Engineering Schools (CPGE)',
-    school: 'Lycée Reda Slaoui',
+    school: 'Lycee Reda Slaoui',
     location: 'Agadir, Morocco',
     period: '2021 - 2023',
     details: [],
@@ -78,7 +79,7 @@ const education = [
 const projects = [
     {
         title: 'Rust-based Remote Agent Framework (Research)',
-        period: 'Jun 2024 - Present',
+        period: 'July 2025 - Present',
         technologies: ['Proxmox', 'Impacket', 'Active Directory', 'BloodHound', 'Rust', 'Tokio'],
         details: [
             'Built a custom remote agent framework in Rust to study secure, memory-safe native tooling.',
@@ -97,9 +98,9 @@ const projects = [
         ],
     },
     {
-        title: 'Enhancing SIEM Capabilities with Cyber Threat Intelligence',
-        period: 'Apr 2025 - Jun 2025',
-        technologies: ['Wazuh', 'VirusTotal API', 'Python', 'Sigma/YARA', 'Osquery', 'Linux'],
+        title: 'CTF & Hands-on Labs',
+        period: 'January 2024 - Present',
+        technologies: ['Active Directory', 'Linux', 'Web Exploitation', 'Privilege Escalation', 'Report Writing',],
         details: [
             'Engineered custom detection rules and decoders for Wazuh SIEM to identify advanced threats.',
             'Integrated CTI feeds to enrich security alerts and enable proactive threat hunting.',
@@ -112,14 +113,16 @@ const skills = {
   'Penetration Testing': ['Internal Network Attacks', 'Privilege Escalation', 'Lateral Movement'],
   'Active Directory Security': ['BloodHound', 'Mimikatz', 'Impacket', 'Kerberoasting', 'NTLM Relay'],
   'Network Security': ['Wireshark', 'TCP/IP', 'VLAN Attacks', 'Network Sniffing'],
-  'Web Application Security': ['Burp Suite', 'OWASP Top 10', 'SQL Injection', 'XSS'],
+  'Web Application Security': ['Burp Suite', 'OWASP Top 10', 'Curl'],
   'Programming Languages': ['Python', 'Rust', 'Java'],
+  'Operating Systems' : ['Windows', 'Linux'],
   'Soft Skills': ['Critical Thinking', 'Problem-Solving', 'Communication', 'Creativity'],
 }
 
 const certifications = [
+  'Practical Network Penetration Tester (PNPT) - TCM Security ',
   'Certified Red Team Analyst (CRTA) - CyberWarfare Labs',
-  'Practical Network Penetration Tester (PNPT) - TCM Security (In Progress)',
+  'Azure Security Engineer Associate (AZ 500) (In progress) - Microsoft',
 ]
 
 const languages = [

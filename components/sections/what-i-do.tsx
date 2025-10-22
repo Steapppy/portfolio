@@ -13,9 +13,10 @@ const services = [
             "Practical experience in penetration testing, focusing on Active Directory attacks, and vulnerability assessments. Skilled in simulating real-world adversaries to identify and remediate security gaps.",
         features: [
             "Active Directory Penetration Testing",
-            "C2 Frameworks (Sliver)",
-            "Vulnerability Reporting & Risk Assessment",
+            "Web Application Penetration Tester",
             "Privilege Escalation & Lateral Movement",
+            "Vulnerability Reporting & Risk Assessment",
+
         ],
         color: "text-gradient", // Gradient text for boldness
         bgColor: "bg-gradient-to-br from-red-700 via-red-500 to-red-900", // Gradient background for aesthetic appeal
